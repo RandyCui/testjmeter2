@@ -6,5 +6,5 @@ ls
 
 echo "starting test ..."
 
-gradle -v
-gradle JmeterPcfTest -Pusers=10 --debug
+sudo gradle -v
+sudo gradle JmeterPcfTest -Pusers=10 --debug
