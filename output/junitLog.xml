@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.570221">
+<testcase classname="Performance test for pcf safearrival api" name="many guardian instantaneous concurrent call get safearrival api" time="23.570221">
+<system-out><![CDATA[Given ${users} threads is loaded............................................passed
+And ramp-up period is set to ${rampupPeriod} seconds........................passed
+And only run one time for each threads......................................passed
+And ${users} guardian login system..........................................passed
+And call safearrival api:"get SafeArrival API"..............................passed
+When call jmeter with safearrival api jmx script:"src/test/resources/jmx/GetSafeArrivalAPI.jmx".passed
+Then verify the response time for all call api..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

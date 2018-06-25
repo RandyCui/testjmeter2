@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+2018/06/25 16:09:14.392,4393,Step01.Get SafeArrival API,200,OK,Thread Group 1-1,text,true,,7960,189,1,1,http://safearrival-api.app.pcfdev.one.west.com/,3780,0,3386
